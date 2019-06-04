@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="demo"
+    errors="0" failures="1" hostname="" id="" package="demo" skipped="1"
+    tests="2" time="22.68" timestamp="Tue, 04 Jun 2019 13:00:11 GMT">
+  
+    <testcase name="Проверка кнопки &#34;Мне повезет!&#34;" classname="demo" time="22.68" assertions="1">  <failure message="Кнопка &#34;Мне повезет!&#34; видна">    at Object.Проверка кнопки &#34;Мне повезет!&#34; (C:\projects\ta-learn\tests\demo.js:7:14)
+    at process._tickCallback (internal/process/next_tick.js:112:11)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Проверка кнопки &#34;Поиск&#34;" classname="demo">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

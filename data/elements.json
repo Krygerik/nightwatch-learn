@@ -1,0 +1,6 @@
+{
+    "standUrl": "https://www.google.com/",
+    "buttonLucky": ".FPdoLc input[value='Мне повезёт!']",
+    "homePage": "#homepage",
+    "inputGoogleSearch": "input.gLFyf"
+}

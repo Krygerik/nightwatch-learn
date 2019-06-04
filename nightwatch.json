@@ -1,0 +1,20 @@
+{
+    "src_folders": ["tests"],
+    "selenium": {
+        "start_process": true,
+        "server_path": "selenium/selenium_3.141.jar",
+        "port": 4444,
+        "cli_args": {
+            "webdriver.chrome.driver": "webdrivers/chromedriver.exe",
+            "webdriver.ie.driver": "webdrivers/IEDriverServer.exe"
+        }
+    },
+    "test_settings": {
+        "default": {
+            "selenium_host": "localhost",
+            "desiredCapabilities": {
+                "browserName": "chrome"
+            }
+        }
+    }
+}
