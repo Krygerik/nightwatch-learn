@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/Krygerik/nightwatch-learn#readme",
   "dependencies": {
-    "chromedriver": "^76.0.0",
     "nightwatch": "^1.2.1"
   }
 }
