@@ -1,15 +1,24 @@
 {
-  "name": "ta-learn",
+  "name": "nightwatch-learn",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krygerik/nightwatch-learn.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krygerik/nightwatch-learn/issues"
+  },
+  "homepage": "https://github.com/Krygerik/nightwatch-learn#readme",
   "dependencies": {
-    "nightwatch": "0.9.20"
+    "chromedriver": "^76.0.0",
+    "nightwatch": "^1.2.1"
   }
 }
