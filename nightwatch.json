@@ -1,14 +1,17 @@
 {
-  "src_folders" : ["tests"],
+  "src_folders" : ["src/tests"],
+  "globals_path": "src/globals.js",
 
-  "webdriver" : {
-    "start_process": true,
-    "server_path": "webdrivers/chromedriver",
-    "port": 9515
+  "selenium" : {
+    "start_process": false
   },
 
   "test_settings" : {
     "default" : {
+      "selenium_port": 9515,
+      "selenium_host": "localhost",
+      "default_path_prefix" : "",
+
       "desiredCapabilities": {
         "browserName": "chrome"
       }
