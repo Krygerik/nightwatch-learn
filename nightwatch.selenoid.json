@@ -1,0 +1,18 @@
+{
+    "src_folders": [
+        "src/tests"
+    ],
+    "selenium": {
+        "start_process": false
+    },
+    "test_settings": {
+        "default": {
+            "selenium_port": 4444,
+            "selenium_host": "localhost",
+            "default_path_prefix": "/wd/hub",
+            "desiredCapabilities": {
+                "browserName": "chrome"
+            }
+        }
+    }
+}

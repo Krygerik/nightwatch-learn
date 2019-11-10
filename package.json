@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "node run.js"
+    "start": "node run.js -c nightwatch.dev.json",
+    "jenkins": "node run.js -c nightwatch.selenoid.json"
   },
   "repository": {
     "type": "git",
