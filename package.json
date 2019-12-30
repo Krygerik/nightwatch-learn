@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "node run.js -c nightwatch.dev.json",
-    "jenkins": "node run.js -c nightwatch.selenoid.json"
+    "jenkins": "nodejs run.js -c nightwatch.selenoid.json"
   },
   "repository": {
     "type": "git",
