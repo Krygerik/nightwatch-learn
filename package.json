@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/Krygerik/nightwatch-learn#readme",
   "dependencies": {
-    "nightwatch": "0.9.20"
+    "nightwatch": "2.6.9"
   },
   "devDependencies": {
-    "chromedriver": "^78.0.1"
+    "chromedriver": "^108.0.0"
   }
 }
